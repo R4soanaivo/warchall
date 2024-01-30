@@ -1,0 +1,26 @@
+*Commencer à se connecter au serveur warchall.net par le biais du port 19198
+*Level 0: -entrer dans la localisation /home/level en utilisant la commande "cd"
+          -accéder au level 0 en entrant dans "00_welcome"
+          -utiliser la commande "ls" pour regarder ce qu'il y a dans le level 0
+          -utiliser la commande "cat" pour lire le fichier dans le level 0 et on obtient la solution du level 0
+*Level 1: -retourner dans la localisation /jome/level en utilisant la commande "cd .."
+          -entrer dans le level 1, c'est-à-dire dans "01_choice_tree" en utilisant la commande "cd"
+          -utiliser la commande "find -readable" pour trouver un fichier lisible pouvant contenir la solution
+          -utiliser la commande "cd" pour pouvoir accéder à l'emplacement suivant, /blue/hats/grey/solution/patience
+          -utiliser la commande "cat" pour pouvoir trouver la solution dans le fichier SOLUTION.txt
+*level 2: -retourner dans la localisation /jome/level en utilisant la commande "cd .."
+          -accéder au level 2 en utilisant la commande "cd" et entrer dans 02
+          -utiliser la commande "ls -al" pour trouver les dossiers cacher dans 02
+          -utiliser "cd" pour accéder à ".porb" qui est un dossier masqué dans 02
+          -utiliser à nouveau "ls -al" pour trouver les dossiers ou les fichiers masqués dans ".porb"
+          -utiliser "cat" pour lire le fichier ".solution" et on obtient la solution au level 2
+*level 3: -retourner dans la localisation /jome/level en utilisant la commande "cd .."
+          -utiliser "cd" et accéder à "03"
+          -utiliser "ls -al" pour trouver les dossiers ainsi que les fichiers masqués
+          -utiliser "cat" pour lire le fichier masqué ".bash_history", et on obtient la solution
+*level 4: -retourner dans la localisation /jome/level en utilisant la commande "cd .."
+          -accéder à "04_kwisatz" grace à la commande "cd"
+          -utiliser "ls" qui nous permettra de trouver 2 fichier dans l'emplacement actuel
+          -en utilisant la commande "cat", on poura lire le fichier "README.txt" qui nous donnera un indice ou plutôt une indication de l'emplacement de la solution
+          -utiliser à nouveau "cat" pour lire le fichier "README2.md" où est situé la solution
+*level 5: -il suffit d'utiliser la commande "cat" et on obtient la solution
